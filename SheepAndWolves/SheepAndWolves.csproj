@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Black.png" />
+    <None Remove="Images\Empty.png" />
+    <None Remove="Images\point.png" />
+    <None Remove="Images\templateIcon.png" />
+    <None Remove="Images\White.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Black.png" />
+    <Resource Include="Images\Empty.png" />
+    <Resource Include="Images\point.png" />
+    <Resource Include="Images\White.png" />
+  </ItemGroup>
+
+</Project>
